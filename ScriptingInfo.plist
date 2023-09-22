@@ -1,0 +1,25 @@
+/* ScriptingSupport.plist 
+
+    This is a template file for application scripting support description.
+    You can take and modify this file.
+*/
+{
+    Classes = (
+        /* List public classes from your application here */
+    );
+    Objects = {
+        /* Our ButtonDemo program exposes these three objects */
+        but1 = "but1";
+        but2 = "but2";
+  	text1 = "text1";
+
+        /* Put a dictionary of public objects here. 
+        
+           Key is object name used in scripts and value is a path to that
+           object relative to application delegate. For example:
+           
+           CurrentMessage = "lastMailWindowOnTop.delegate.selectedMessage";
+
+        */
+    };
+}
