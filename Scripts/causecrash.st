@@ -11,7 +11,7 @@ main
   ^self
 !
 
-down1:sender
+down:sender
   "Method that receives a message from But1"
   Transcript showLine:'user pressed But1'.
   ^self
